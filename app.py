@@ -6,7 +6,7 @@ from tensorflow.keras.models import load_model
 
 import streamlit as st
 python -m streamlit run app.py
-model = load_model('C:\Users\ANKUSH\Desktop\project\Stock_Market_Prediction_Model_Creation.ipynb')
+model = load_model('C:\Users\\Desktop\project\Stock_Market_Prediction_Model_Creation.ipynb')
 
 st.header('Stock Market Predictor')
 
@@ -78,4 +78,5 @@ plt.plot(y, 'g', label = 'Predicted Price')
 plt.xlabel('Time')
 plt.ylabel('Price')
 plt.show()
+
 st.pyplot(fig4)
